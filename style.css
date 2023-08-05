@@ -9,53 +9,52 @@ body {
 .main {
   flex: 1;
 }
-
 h1 {
   font-size: 5rem;
 }
-
 footer {
   text-align: right;
   color: midnightblue;
 }
-
+/* excercise */
 .card img {
   height: 200px;
   float: left;
   margin-right: 50px;
 }
-.main span{
+
+.main span {
   color: midnightblue;
 }
-.card{
+.card {
   width: 45%;
 }
-.left{
+.left {
   float: left;
 }
 .right {
   float: right;
 }
+
 @media (max-width: 680px) {
-  .logo{
+  .logo {
     width: 100%;
   }
-  h1{
+  h1 {
     font-size: 3rem;
     text-align: center;
   }
-  .card{
+  .card {
     width: 100%;
     display: block;
     margin-bottom: 20px;
     text-align: justify;
   }
-  .card img{
+  .card img {
     width: 100%;
     margin-bottom: 10px;
     display: inline;
     object-fit: cover;
   }
-
 }
 
